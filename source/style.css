@@ -29,9 +29,6 @@ File: scss
 /*Normal Color*/
 /*Extra Variable*/
 /*Preloader*/
-
-@import url(spinners.css);
-@import url(animate.css);
 .preloader {
   width: 100%;
   height: 100%;
