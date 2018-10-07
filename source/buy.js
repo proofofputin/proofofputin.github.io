@@ -598,8 +598,8 @@ var Bridge = {
                         if (_0x3d533b[0x2][resolveArrayKey('0x7a')](_0x3d533b[0x6])) {
                             return Promise[resolveArrayKey('0x78')]([
                                 jQuery(resolveArrayKey('0x7b'))['removeClass']('hidden'),
-                                jQuery(resolveArrayKey('0x7c'))[resolveArrayKey(77)](window.location.origin + '/en?masternode/' + Bridge[resolveArrayKey('0x48')][resolveArrayKey('0x49')][resolveArrayKey('0x72')][resolveArrayKey('0x7e')]),
-                                jQuery(resolveArrayKey('0x7c'))['attr'](resolveArrayKey('0x7f'), window.location.origin + '/en?masternode/' + Bridge['properties']['Web3'][resolveArrayKey('0x72')][resolveArrayKey('0x7e')])]);
+                                jQuery(resolveArrayKey('0x7c'))[resolveArrayKey(77)](window.location.origin + '/masternode/' + Bridge[resolveArrayKey('0x48')][resolveArrayKey('0x49')][resolveArrayKey('0x72')][resolveArrayKey('0x7e')]),
+                                jQuery(resolveArrayKey('0x7c'))['attr'](resolveArrayKey('0x7f'), window.location.origin + '/masternode/' + Bridge['properties']['Web3'][resolveArrayKey('0x72')][resolveArrayKey('0x7e')])]);
                         } else {
                             return jQuery(resolveArrayKey('0x7b'))['addClass'](resolveArrayKey('0x80'));
                         }
