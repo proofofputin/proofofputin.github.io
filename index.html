@@ -563,17 +563,7 @@
                 var balanceEth = actualBalance * tokenSalesPrice;
                 $('#curentBalanceEth').text(parseFloat(balanceEth).toFixed(4))
             });
-            $('#contract-transactions').DataTable({
-                dom: 'Bfrtip',
-                searching: false,
-                pageLength: 10,
-                bPaginate: false,
-                bFilter: false,
-                bInfo: false,
-                order: [[0, "desc"]],
-                ajax: 'http://api.etherscan.io/api?module=account&action=txlist&address=0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a&startblock=0&endblock=99999999&sort=asc&apikey=4T762815CD87MH1N88JAQNHQFZMT4TP99K'
-            });
-        });
+});
 
         new Chart(document.getElementById("chart1"), {
             type: 'line',
